@@ -1,0 +1,14 @@
+double firstDouble;
+firstDouble = 10.00;
+double secondDouble = 5.00;
+
+double divide (double a, double b) {
+return a / b;
+}
+
+double result = divide(firstDouble, secondDouble);
+print(result);
+
+double scannedDouble = insertDouble();
+print(scannedDouble);
+

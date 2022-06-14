@@ -1,0 +1,5 @@
+int test (int variable) {
+return "incorrectReturnType";
+}
+
+int result = test(20);

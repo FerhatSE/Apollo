@@ -1,0 +1,4 @@
+int answer;
+answer = insertInt();
+boolean hello = answer > 5;
+print(hello);

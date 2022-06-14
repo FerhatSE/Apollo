@@ -1,0 +1,15 @@
+ int power(int a, int b) {
+        int result = 1;
+        while (b > 0) {
+            result = result * a;
+            b = b - 1;
+        }
+        return result;
+    }
+
+        int data = power(2, 8);
+        if (data == 256) {
+            print("Correct");
+        } else {
+            print(data);
+      }

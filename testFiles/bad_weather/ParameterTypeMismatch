@@ -1,0 +1,5 @@
+int test (int variableOne, int variableTwo) {
+return variableOne * variableTwo;
+}
+
+int result = test("invalidType", "anotherInvalidType");

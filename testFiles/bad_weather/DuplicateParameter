@@ -1,0 +1,3 @@
+int test (int duplicate, int duplicate) {
+return duplicate * duplicate;
+}

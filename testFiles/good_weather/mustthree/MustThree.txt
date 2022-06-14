@@ -1,0 +1,20 @@
+boolean test;
+int answer1;
+answer1 = insertInt();
+int answer2;
+answer2 = insertInt();
+test =  answer1 > answer2 || answer2 < 0;
+
+if (test) {
+    print("You made a mistake");
+} else {
+    print(test);
+}
+
+test =  answer1 > answer2 && answer2 < 0;
+
+if (test) {
+    print("true");
+} else {
+    print("false");
+}

@@ -1,0 +1,42 @@
+int intValue = insertInt();
+boolean boolValue = insertBoolean();
+double doubleValue = insertDouble();
+Text textValue = insertText();
+
+while (boolValue) {
+
+repeat 10 times {
+intValue = incrementInteger(intValue);
+doubleValue = incrementDouble(doubleValue);
+}
+
+boolValue = false;
+textValue = "Changed text";
+}
+
+printValues(intValue, boolValue, textValue, doubleValue);
+
+void printValues (int a, boolean b, Text c, double d) {
+if (a != 100) {
+print ("Incorrect");
+} else {
+print (a);
+}
+
+print (b);
+print (c);
+
+if (d != 100.0) {
+print ("Incorrect");
+} else {
+print (d);
+}
+}
+
+int incrementInteger (int a) {
+return a + 1;
+}
+
+double incrementDouble (double a) {
+return a + 1.0;
+}
